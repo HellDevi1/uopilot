@@ -1,0 +1,44 @@
+em {
+	margin-left:70%;
+}
+ul {
+	margin-left:30%;
+	list-style-type:none;
+	font: 15pt tempus sans itc;
+	background:white;
+}
+span {
+	margin-left:30%;
+	font:bold 30pt arial;
+}
+h2 {
+	width: 533px; 
+    background: #fc0; 
+    border: solid 1px black; 
+    margin-left:29%;
+}
+body {
+	/*background: url(http://www.playcast.ru/uploads/2014/11/02/10460668.gif);*/
+	background: url(http://svoysayt55.narod.ru/fris_snegkrupbel.gif);
+	background-repeat:repeat;
+}
+.block1 {
+	width: 630px; 
+    background: #f000; 
+    border: solid 1px white; 
+    margin-left:20%;
+}
+img {
+	margin-left:39%;
+	border: solid 1px black; 
+}
+.zvezda{
+	margin-left:34%;
+	font:bold 20pt arial;
+}
+.zagolovok{
+	width: 630px; 
+    background: #f000; 
+    border: solid 1px white; 
+    margin-left:17%;
+}
