@@ -1,0 +1,20 @@
+
+ul{
+	font-size:16pt;
+	list-style-type:none
+}
+body{
+	background: url(http://365psd.ru/images/backgrounds/paper-2.jpg);
+	text-align:center;
+	<img src="http://prometey-spb.su/userfiles/image/pushkin(1).jpg" alt="Пушкин" title="Пушкин" width="450" height="600">
+}
+h1{
+	text-align:center;
+}
+img{
+	margin: 0 auto;display:block;
+}
+a:link{color:blue; font-weight:100;text-decoration:none;}
+a:visited{color:firebrick;font-weight:100;text-decoration:none;}
+a:hover{color:#FF0033;font-weight:bold;text-decoration:underline;}
+a:active{color:#CC00FF;font-weight:bold;background-color:#000099;text-decoration:underline; }
