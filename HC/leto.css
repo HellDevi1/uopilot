@@ -1,0 +1,18 @@
+.ramka{
+	border: 20px solid gold;
+	border-image-source: url(http://mobilepics.ru/uploads/pictures/small_images/1-1708794-3083-t.jpg);
+	border-image-slice: 50;
+	border-image-repeat: round;
+		
+}
+body {
+	text-align:center;
+	font:15px arial black;
+	
+	
+}
+html {
+		background: url(http://www.ds2taganrog.ru/wp-content/uploads/2014/01/more-fon-1-300x200.jpg);
+		background-repeat:repeat;
+		color:black;
+}

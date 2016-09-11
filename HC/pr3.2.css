@@ -1,0 +1,25 @@
+
+body {
+	
+	font:12px arial black;
+	
+	
+}
+html {
+		background: url(http://365psd.ru/images/backgrounds/paper-2.jpg);
+		background-repeat:repeat;
+		color:black;
+}
+p {
+	text-indent: 25px; 
+}
+h1,h2 {
+		text-align:center;
+}
+img{
+		margin-left:37%;
+}
+ul {
+	list-style-image: url(http://www.peterhof.ru/images/send.jpg);
+	margin-left:42%;
+}
