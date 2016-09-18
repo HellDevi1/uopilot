@@ -1,0 +1,108 @@
+@font-face{
+    font-family: "Stillogo";
+    src: url(./fonts/balls.ttf);
+}
+@font-face {
+    font-family:"StilMenu";
+    src: url(./fonts/JustMeAgainDownHere.ttf)
+}
+*
+{
+    margin:0;
+    padding:0;
+    outline: none;
+}
+#all{
+    width: 990px;
+    min-width: 990px;
+    height: 1065px;
+    min-height: 1065px;
+    background-image: url(img/kniga.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+#stranica{
+    min-width: 1000px;
+    min-height: 990px;
+    background-image: url(img/fon.png);
+}
+#footer{
+    width: 990px;
+    min-width: 990px;
+    height: 65px;
+}
+.top{
+    width: 947px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 35px;
+    background-image: url(img/top1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.top .logo_text{
+    font-size: 54.42px;
+    font-family: "Stillogo";
+    color: #34160b;
+    margin: 10px 0px 10px 15px;
+    float: left;
+}
+.top_search{
+    float: right;
+}
+.top_search img{
+    margin: 25px 15px 0 0;
+}
+.tenb{
+    width: 937px;
+    height: 11px;
+    background-image: url(img/tenb.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.center {
+    position: relative;
+    width: 940px;
+    height: 940px;
+    margin:0 auto;*/
+}
+li {
+    display: inline;
+    margin-right: 24px;
+    font-family: "StilMenu";
+    font-size: 30px;
+    color:#293f94;
+}
+/*.tenb {
+    width: 937px;
+    height: 11px;
+    background-image: url(img/tenb.png);
+    background-repeat: no-repeat;
+    margin:-1000px;
+    margin-left: 8px;
+}*/
+/*.center_fon {
+    width: 940px;
+    height: 950px;
+    background-image: url(img/center_fon.png);
+    background-repeat: no-repeat;
+}*/
+.info{
+    height: 1115px;
+    width: 947px;
+    background-image: url(img/center_fon.png);
+    background-repeat: no-repeat;
+    background-position-y: 90px;
+    background-position-x: -10px;
+    margin: 0 auto;
+}
+ul
+{
+    width: 500px;
+    height: 20px;
+    padding: 18px 504px 897px 58px;
+}
