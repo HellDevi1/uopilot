@@ -5,9 +5,6 @@
 @font-face {
     font-family:"StilMenu";
     src: url(./fonts/JustMeAgainDownHere.ttf)
-}@font-face {
-    font-family:"Text";
-    src: url(./fonts/7fonts.ru_Verdankz.ttf)
 }
 *
 {
@@ -25,13 +22,11 @@
     margin: 0 auto;
     position: relative;
     top: 20px;
-    
 }
 #stranica{
     min-width: 1000px;
     min-height: 990px;
     background-image: url(img/fon.png);
-    
 }
 #footer{
     width: 990px;
@@ -74,14 +69,12 @@
     width: 940px;
     height: 940px;
     margin:0 auto;*/
-    display:inline;
 }
 li {
     display: inline;
-    padding-left: 20px;
+    margin-right: 24px;
     font-family: "StilMenu";
     font-size: 30px;
-    font-weight:bold;
     color:#293f94;
 }
 /*.tenb {
@@ -111,239 +104,5 @@ ul
 {
     width: 500px;
     height: 20px;
-    padding: 15px 504px 20px 58px;
+    padding: 18px 504px 897px 58px;
 }
-.center a{
-    text-decoration: none;
-    width: 96px;
-    height: 29px;
-}
-.shadow {
-    width: 732px;
-    height: 95px;
-    margin:auto;
-    margin-top: 230px;
-    background-image: url(img/shadow.png);
-    background-repeat: no-repeat;
-}
-.frame 
-{
-    width: 905px;
-    height: 311px;
-    margin-left:18px; 
-    margin-top: -330px;
-    background-image: url(img/frame.png);
-    background-repeat: no-repeat;
-}
-        
-.frame_inner {
-    position: relative;
-    width: 867px;
-    height: 311px;
-    margin: 0px auto;
-    background-image: url(img/frame_inner.png);
-    background-repeat: no-repeat;
-    background-position-x: -4px;
-    background-position-y: 12px;
-}
-.tochki {
-    position: absolute;
-    bottom: 5px;
-    width: 70px;
-    height: 11px;
-    background-image: url(img/tochki.png);
-    background-repeat: no-repeat;
-    left:395px;
-}
-.left {
-    width: 109px;
-    height: 47px;
-    float: left;
-    background-image: url(img/SLeft.png);
-    margin-left: -71px;
-    margin-top: 120px;
-}
-.right {
-    width: 109px;
-    height: 47px;
-    float: right;
-    background-image: url(img/SRight.png);
-    margin-right: -72px;
-    margin-top: 120px;
-}
-.sedibar {
-    width: 250px;
-    height: 469px;
-    margin: 19px 10px 67px 680px;
-    background-image: url(img/sidebar.png);
-    background-repeat: no-repeat;
-}
-.titlebg {
-    width: 262px;
-    height: 66px;
-    background-image: url(img/titlebg.png);
-    background-repeat: no-repeat;
-    margin-left: -22px;
-}
-.RecentPosts {
-    font-family: "StilMenu";
-    font-size:30px;
-    text-align:center;
-    font-weight:bold;
-}
-.clip
-{
-    width: 57px;
-    height: 56px;
-    background-image: url(img/clip.png);
-    background-repeat: no-repeat;
-    float: right;
-    margin-top: -10px;
-    margin-right: -8px;
-}
-.posts{
-    font-family: arial;
-    font-size: 12px;
-    margin-left: 90px;
-    margin-top: 15px;
-}
-.posts1{
-    width: 180px;
-    height: 70px;
-    font-family: arial;
-    font-size: 12px;
-    margin-left: 90px;
-    margin-top: 30px;
-}
-.solapa {
-    width: 294px;
-    height: 216px;
-    background-image: url(img/solapa.png);
-    background-repeat: no-repeat;
-    margin-top: -180px;
-    margin-right: -26px;
-    margin-left: 673px;
-}
-/*.center_right {
-    width: 294px;
-    height: 545px;
-    float:left;
-}*/
-.listsola {
-    width: 238px;
-    height: 114px;
-    background-image: url(img/sololist.png);
-    background-repeat: no-repeat;
-    float:right;
-    margin-top: -135px;
-}
-.center_left {
-    width: 649px;
-    height: 507px;
-    margin-top:-573px;
-    margin-left: 20px;
-}
-.data {
-    width: 86px;
-    height: 66px;
-    background-image: url(img/data.png);
-    background-repeat: no-repeat;
-}
-.data1 {
-    width: 86px;
-    height: 66px;
-    background-image: url(img/data.png);
-    background-repeat: no-repeat;
-    margin-top:25px;
-}
-.zagolovok {
-    width: 350px;
-    height: 25px;
-    margin-left: 90px;
-    padding-top: 15px;
-}
-.fontzagol {
-    font-family:"StilMenu";
-    font-size: 48px;
-    color: #a9a69c;
-}
-.comment {
-    width: 157px;
-    height: 30px;
-    background-image: url(img/comment.png);
-    background-repeat: no-repeat;
-    margin-left: 380px;
-    margin-top:-36px;
-}
-.text {
-    width: 410px;
-    height: auto;
-    min-height:140px; 
-    font-family: "Text";
-    font-size: 12px;
-    margin-left: 35px;
-    margin-top: 10px;
-}
-.text1 {
-    width: 410px;
-    height: auto;
-    min-height:140px; 
-    font-family: "Text";
-    font-size: 12px;
-    margin-left: 190px;
-    padding-top: 10px;
-}
-.pic {
-    width: 170px;
-    height: 162px;
-    background-image: url(img/pic.png);
-    background-repeat: no-repeat;
-    margin-left: 463px;
-    margin-bottom: -150px;
-    
-}
-.pic1 {
-    width: 170px;
-    height: 162px;
-    background-image: url(img/pic.png);
-    background-repeat: no-repeat;
-    margin-top: 10px;
-    margin-left: 35px;
-    
-}
-.more {
-    width: 96px;
-    height: 29px;
-    background-image: url(img/more.png);
-    background-repeat: no-repeat;
-    margin-left: 344px;
-}
-.more1 {
-    width: 96px;
-    height: 29px;
-    background-image: url(img/more.png);
-    background-repeat: no-repeat;
-    margin-left: 510px;
-    margin-top: -50px;
-}
-#footer {
-    width: 867px;
-    height: 142px;
-    background-image: url(img/footer.png);
-    background-repeat: no-repeat;
-    background-position-y:-55px;
-    background-position-x:58px;
-    margin: 0 auto;
-}
-.futer {
-    font-family: "Text";
-    font-size: 12px;
-    text-align: center;
-    color: #9a6958;
-}
-body, html {
-    width: 100%;
-    height: 100%;
-    background-image: url(img/fon.png);
-}
-
