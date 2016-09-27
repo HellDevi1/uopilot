@@ -1,0 +1,33 @@
+table {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	border-collapse: collapse;
+	color: white;
+	margin: 20px auto;
+	border: 3px solid white;
+	min-width: 1400px;
+	width: 1400px;
+}
+th {
+	border-bottom: 3px solid white;
+	padding: 10px;
+	text-align: left;
+}
+td {
+	padding: 10px;
+}
+tr {
+	background: black;
+}
+
+td:first-child{
+	width: 350px;
+	word-wrap: break;
+	text-align: left;
+}
+.logo{
+	float: left;
+	margin-left: 50px;
+}
+body {
+    background: black;
+}
