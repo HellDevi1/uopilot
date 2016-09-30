@@ -1,0 +1,58 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.osnova {
+    width: 550px;
+   
+    min-height: 250px;
+    background-color: aliceblue;
+    box-shadow: 0 0 0 1px #bbbbbb, 0 0 0 2px #888;
+    margin:0 auto;
+    margin-top: 15%;
+}
+.left {
+    width: 225px;
+    min-height: 250px;
+    float: left;
+}
+.right {
+    float: right;
+    width: 325px;
+    min-height: 250px;
+}
+img {
+    margin:5px 0 0 50px;
+}
+.sdvig {
+    margin-left: 25px;
+    margin-top: -5px;
+}
+.vhod {
+    width: 305px;
+    background-color: #e8ecef;
+    border: 1px solid #bbbbbb;
+    
+}
+.vhod1 {
+    margin-left: 10px;
+}
+
+form input:last-child {
+    
+    border:1px solid #bbbbbb;
+}
+.vh {
+    color: red;
+    font-size: 24px;
+    margin-bottom: 0px;
+    
+}
+.sdvig1 {
+    margin-top: 42px;
+}
+.clear{
+    clear:both;
+    width: 100%;
+}
