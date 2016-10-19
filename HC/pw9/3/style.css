@@ -31,3 +31,6 @@ td:first-child{
 body {
     background: black;
 }
+tr:hover {
+	background: #696969;
+}
