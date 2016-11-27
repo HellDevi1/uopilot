@@ -1,0 +1,169 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.osnova {
+    width: 550px;
+   
+    min-height: 250px;
+    background-color: aliceblue;
+    box-shadow: 0 0 0 1px #bbbbbb, 0 0 0 2px #888;
+    margin:0 auto;
+    margin-top: 15%;
+}
+.left {
+    width: 225px;
+    min-height: 250px;
+    float: left;
+}
+.right {
+    float: right;
+    width: 325px;
+    min-height: 250px;
+}
+img {
+    margin:5px 0 0 50px;
+}
+.sdvig {
+    margin-left: 25px;
+    margin-top: -5px;
+}
+.vhod {
+    width: 305px;
+    background-color: #e8ecef;
+    border: 1px solid #bbbbbb;
+}
+.vhod1 {
+    margin-left: 10px;
+}
+
+form input:last-child {
+    
+    border:1px solid #bbbbbb;
+}
+.vh {
+    color: red;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.sdvig1 {
+    margin-top: 42px;
+}
+.clear{
+    clear: both;
+    width: 100%;
+    min-height: 10px;
+}
+.clear_dva{
+    display: block;
+    clear: both;
+    width: 100%;
+    min-height: 1px;
+}
+.edin{
+
+    min-height: 1px;
+    width: 80%;
+}
+.edin div{
+    display: inline;
+    margin-bottom: 10px;
+}
+.spanleft
+{
+    float: right;
+
+}
+.spanright
+{
+    float: right;
+    width: 310px;
+    min-height:20px ;
+}
+
+textarea
+{
+    min-width: 310px;
+    max-width: 350px;
+    max-height: 200px;
+}
+.auth
+{
+    max-width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+    cursor: default;
+}
+.edin input
+{
+    min-width: 310px;
+    min-height: 14px;
+}
+/*Звездочка (обязательные поля)*/
+.error
+{
+    color:red;
+    cursor: pointer;
+}
+select
+{
+    display: inline-block;
+}
+/*Ширина выпадающего списка день и год*/
+.data
+{
+    min-width: 80px;
+}
+/*Ширина выпадающего списка месяц*/
+.data1
+{
+    min-width: 145px;
+}
+/*Вывод ошибки красным цветом*/
+.error1
+{
+    color: red;
+    cursor: default;
+}
+/*Блок "регистрации и ресет*/
+.registr
+{
+    max-width: 370px;
+    height: 14px;
+    margin: 0 auto;
+    padding-left: 180px;
+}
+/*Кнопки "регистрации и ресет*/
+.registr input
+{
+    width: 157px;
+    height: 25px;
+    position: relative;
+    display: inline-block;
+    font-size: 70%;
+    font-weight: 700;
+    color: rgb(209,209,217);
+    text-decoration: none;
+    text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+    padding: .5em 1em;
+    outline: none;
+    border-radius: 3px;
+    background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+    box-shadow:
+            0 1px rgba(255,255,255,.2) inset,
+            0 3px 5px rgba(0,1,6,.5),
+            0 0 1px 1px rgba(0,1,6,.2);
+    transition: .2s ease-in-out;
+}
+body
+{
+    background-image: url("./img/redox.png");
+    background-repeat: repeat;
+}
+/*Все поля ввода,кроме кнопок*/
+.polya
+{
+    margin-right: 180px;
+}
