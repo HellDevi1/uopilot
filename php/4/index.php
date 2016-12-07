@@ -1,12 +1,13 @@
 ﻿<html>
 	<head>
 		<meta charset="utf-8">
-		<title>make america great again</title>
-		<link rel="stylesheet" href="./css/stylephp1.css">
+		<title>4php</title>
+		<link rel="stylesheet" href="./css/style.css">
 	</head>
 	<body>
 	<div class="osn_block">
 		<div class="container">
+		<div>http://intsys.msu.ru/study/students/3.htm</div>
 			<div class="menu">
 				<form method=post> 
 					<input type="search" name="url" placeholder="Поиск по сайту" value="<?php if(isset($_POST['url'])) echo $_POST['url'];?>"> 
