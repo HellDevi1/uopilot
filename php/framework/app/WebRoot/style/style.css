@@ -1,0 +1,259 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+}
+header .container
+{
+    min-width: 960px;
+    width: 100%;
+    min-height: 72px;
+    background: #1abaef;
+}
+#logo
+{
+    width="222";
+    height="40";
+}
+.container .hdcenter .img
+{
+    margin-top: 15px;
+}
+.headerShodow
+{
+    width: 100%;
+    height: 10px;
+    background-image: url(./images/shadow.png);
+    background-repeat: repeat-x;
+    top:72px;
+    position: absolute;
+    min-width: 960px;
+}
+.content
+{
+    width: 100%;
+    min-height: 635px;
+}
+.maintop
+{
+    width: 100%;
+    min-height: 250px;
+    background-image: url(./images/bg-main.png);
+
+}
+
+.hdcenter
+{
+    max-width: 924px;
+    height: 41px;
+    margin: 0  auto;
+}
+.hdleft
+{
+    width: 390px;
+    height: 72px;
+    float: left;
+}
+.hdright
+{
+    width: 534px;
+    height: 72px;
+    float: right;
+
+}
+/*.support
+{
+    max-width: 296px;
+    height: 72px;
+    float: left;
+}
+.support ul
+{
+    min-width: 192px;
+    border: 1px solid #fff;
+	border-top-width: 12px;
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	border-radius: 3px;
+	margin-top: 12px;
+    margin-left: 10px;
+}
+.hdright .support a
+{
+    text-decoration:none;
+    background: #c5e4f6;
+    color:#008fbf;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+}
+.hdright .support a:hover
+{
+    background: #cbebfd;
+}
+.hdright .support a:visited
+{
+    color:#008fbf;
+}
+.hdright .support li
+{   
+    
+    margin-left: 1px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    display: inline-block;
+    border: 2px solid white;
+}*/
+.vhod
+{   min-width: 200px;
+    max-width:230px;
+    height: 72px;
+    float: right;
+    margin-right: 60px;
+    margin-top: 17px;
+}
+.vhod ul
+{
+    margin-left: 30px;
+}
+
+.vhod a
+{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: auto 0;
+    color: white;
+    
+}
+.vhod a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+.vhod li 
+{
+    display: inline;
+    float: left;
+    padding: 5px;
+}
+#login-item
+{
+width: 40px;
+background: url("./images/login.png") no-repeat left;
+padding-left: 12px !important;
+}
+.top
+{   
+    width: 961px;
+    height: 220px;
+    margin: 0 auto;
+    color: white;
+    padding-left: 42px;
+
+}
+.topcontent
+{
+    width: 680px;
+    max-height: 300px;
+    font-size: 1em;
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 50px;
+}
+.imgbug
+{
+    width: 281px;
+    height: 183px;
+    float: right;
+    padding-top: 30px;
+}
+
+a.button25 {
+  position: relative;
+  display: inline-block;
+  width: 10em;
+  height: 2.5em;
+  line-height: 2.5em;
+  vertical-align: middle;
+  text-align: center;
+  zoom:2;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: #fff;
+  outline: none;
+  border: 2px solid #f68b2b;
+  border-radius: 10px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+  background: linear-gradient(#FB9575, #f49538 48%, #ea6f02 52%, #f06917);
+}
+a.button25:active {
+  top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+.knopka
+{
+    width: 600px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: -50px;
+    left: 40px;
+
+}
+.maintop-shadow {
+    background: url("./images/shadow.png") repeat-x;
+    height: 10px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.content .container
+{   
+    width: 940px;
+    min-height: 240px;
+    margin: 0 auto;
+    padding-left: 16px;
+}
+.main-questions {
+	margin-bottom: 30px;
+	overflow: hidden;
+	clear: both;
+}
+
+	.main-questions div {
+		width: 280px;
+		float: left;
+		padding-right: 20px;
+		margin-right: 20px;
+		/*background: url("./images/divider.png") no-repeat right top;*/
+	}
+
+		.main-questions div.last {
+			background: none;
+			padding-right: 0;
+			margin-right: 0;
+			width: 300px;
+		}
+
+	.main-questions h3 {
+		font-size: 18px;
+		line-height: 22px;
+		padding-bottom: 18px;
+	}
+footer p
+{
+    vertical-align: middle;
+    text-align: center;
+}
+.content1 {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    color:white;
+}
+.qwer
+{
+    background: url("./images/logo.png") no-repeat;
+    color:red;
+}
